@@ -1,13 +1,10 @@
 'use client';
-import React, { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import React from 'react';
+import { redirect } from 'next/navigation';
 
 const HomePage = () => {
-  const router = useRouter();
 
-  useEffect(() => {
-    // router.push('/home');
-  }, [router]);
+  redirect('/home');
 
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-blue-50 to-blue-100">

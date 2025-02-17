@@ -7,10 +7,10 @@ import Providers from "@/components/providers";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "6sense Efficiency",
+  title: "6sense Depsheildio",
   description: "Performance Automation for 6sense Team",
   icons: {
-    icon: "/favicon/favicon.webp",
+    icon: "./favicon.ico",
   },
 };
 
